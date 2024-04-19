@@ -12,5 +12,7 @@ body{
     margin: 0px;
     color:#FF7477;
 }
-
-       
+.content {
+    padding: 10px;
+    margin: 0px;
+         }
