@@ -26,3 +26,6 @@ body{
 .home {
 display:flex;
 }
+.bestellformular{
+    display:none;
+}
