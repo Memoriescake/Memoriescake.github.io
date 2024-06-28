@@ -8,8 +8,8 @@
     </head>
     <body>
         <div class="navi">
-           <button> Home </button>
-           <button> Bestellformular </button>
+           <button onclick="showHome()"> Home </button>
+           <button onclick="showBestellformular()"> Bestellformular </button>
            <button> Bewertung </button>
 
         
@@ -43,7 +43,11 @@
         <script>
             var Nachricht= "sie müssen das akzeptieren, sonst werden sie nie den besten Kuchen der Welt essen  "
             alert(Nachricht);
-            
+
+            function showHome(){
+
+            }
+
             function showBestellformular() {
                 var HomeSection = document.querySelector(".home");
                 HomeSection.style.display = "none";
