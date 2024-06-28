@@ -45,7 +45,12 @@
             alert(Nachricht);
 
             function showHome(){
-
+                var HomeSection = document.querySelector(".home");
+                HomeSection.style.display = "flex";
+                var BestellformularSection = document.querySelector(".bestellformular");
+                BestellformularSection.style.display = "none";
+                var BewertungSection = document.querySelector(".bewertung");
+                Bewertungsection.style.display = "none";
             }
 
             function showBestellformular() {
@@ -58,7 +63,12 @@
             }
 
             function showBewertung() {
-                
+                var HomeSection = document.querySelector(".home");
+                HomeSection.style.display = "none";
+                var BestellformularSection = document.querySelector(".bestellformular");
+                BestellformularSection.style.display = "none";
+                var BewertungSection = document.querySelector(".bewertung");
+                Bewertungsection.style.display = "flex";
             }
         </script>
     </body>
