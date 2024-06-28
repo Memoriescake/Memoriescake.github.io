@@ -42,7 +42,12 @@
 
         <script>
             var Nachricht= "sie müssen das akzeptieren, sonst werden sie nie den besten Kuchen der Welt essen  "
-            alert(Nachricht)
+            alert(Nachricht);
+            
+            function showBestellformular() {
+                var HomeSection = document.querySelector(".home");
+                HomeSection.style.display = "none";
+            }
         </script>
     </body>
 
