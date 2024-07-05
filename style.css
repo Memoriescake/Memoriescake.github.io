@@ -1,9 +1,9 @@
-h1 { 
+.h1 { 
     font-size: 25px;
     color:#191308 ;
     padding-top: 20px;
 }
-body{
+.body{
     background-color:#A37C40;
     margin: 0px;
     font-family: Arial;
